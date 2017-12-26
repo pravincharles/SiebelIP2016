@@ -1,3 +1,11 @@
+/*
+This rendender does a Account Search via a Business Service, Service is a external service to Siebel,
+Change log
+
+12/12/2017 --> InlineCSS Class Changes
+
+*/
+
 if (typeof(SiebelAppFacade.LXKDynamicAccountSearchPR) === "undefined") {
 
  SiebelJS.Namespace("SiebelAppFacade.LXKDynamicAccountSearchPR");
