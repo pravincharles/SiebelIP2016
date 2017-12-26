@@ -1,0 +1,273 @@
+.siebui-logo
+{
+	    background-image: url("/images/Custom/logo1.png") !important;
+		background-position: 1px 7px !important;
+		background-color: #d20303 !important;
+} 
+#_sweclient #_swecontent
+{
+	top: 180px;
+	border:	none !important;
+}
+#_sweappmenu, #tb_0
+{
+	background: linear-gradient(to bottom, #2a798c 0px, #131e21 100%) repeat scroll 0% 0% transparent !important;
+	color:	#ddd !important;
+}
+.siebui-view-navs .siebui-nav-tabScreen,#s_sctrl_tabView,.ui-tabs-anchor
+ {
+	background: rgb(39, 74, 103) !important;
+	color: #ddd !important;
+ }
+ .siebui-view-navs .siebui-nav-tabScreen .ui-tabs-nav .ui-tabs-active a
+ {
+	background: #ddd !important;
+	color: rgb(39, 74, 103) !important;
+ }
+ #s_sctrl_tabView.siebui-active-navtab.ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active a
+{
+	color: #208678 !important;
+}
+#HTMLMessageBar
+{
+	width: 220px !important;
+
+}
+#tools
+{
+	padding: 27px!important;
+}
+.siebui-button-toolbar span.ToolbarButtonOn
+{
+	background: transparent !important;
+	border: 1px solid #ddd !important;
+
+}
+.siebui-button-toolbar
+{
+	border:none!important;
+	float: right!important;
+}
+.siebui-button-toolbar#_sweviewbar
+{
+	float: right!important;
+}
+ #MsgBar, #tb_13, #tb_11, #siebui-toolbar-toggle-communication-panel/* , #_sweclient .siebui-button-toolbar */
+{
+	visibility: hidden !important;
+	display: none !important;
+}
+#_sweclient,.siebui-button-toolbar, .siebui-view-navs.siebui-nav-tabScreen, .siebui-main-template6633>div, .siebui-view-multi-column, #_sweview, #s_S_A1_div, #_swethreadbar, #_svf0
+{
+	background: #0f7e98 !important;
+	background-image: url("/images/Custom/bg2.png") !important;
+}   
+
+#_swethreadbar
+{
+	height: 60px !important; 
+}
+#msg
+{
+	color: whitesmoke !important;
+	font-size: 15px;
+}
+/* hiding calender */
+.siebui-main-column33	
+{
+	visibility: hidden !important;
+} 
+
+.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all
+{
+	margin-left: 100px !important;
+} 
+#img1
+{
+	position: absolute;
+} 
+#imgg
+{
+	position: absolute;
+    height: 70px;
+	width: 700px;
+    margin-left: 526px;
+    z-index: 0;
+    margin-top: -4px;
+}
+.siebui-tile-container , .ui-jqgrid-bdiv
+{
+    background-color: #C2D2D8;
+}
+.ui-jqgrid .ui-jqgrid-htable .ui-jqgrid-sortable
+{
+	 background-color: #C2D2D8;
+	 color: #002641 !important;
+	 font-weight: 500 !important;
+	 padding-right: 30px ;
+}
+.siebui-ctrl-drilldown
+{
+	color: #128092!important;
+}
+
+.siebui-applet-header.siebui-collapsible.AppletButtons.siebui-form-applet-header.siebui-collapsible-applet-header
+{
+	background: url("/images/custom/bgd_logo.png") no-repeat!important;
+	border: #ddd;
+    border-style: ridge none none ridge;
+	min-height: 10px !important;
+}
+.siebui-applet-title 
+{
+	color: #ddd !important;
+	font-size: medium !important;
+	font-family: Arial !important;
+}
+.siebui-view-navs .siebui-nav-tabScreen .ui-tabs-nav li a
+{
+	font-family: Arial !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+	border-radius: 0px 0px 0 0 !important;
+    height: 20px !important;
+    line-height: 17px !important;
+	border: none !important;
+}
+.siebui-view-navs .siebui-nav-tabView .ui-tabs-nav li a
+{
+	border: none !important;
+	font-family: Arial !important;
+	font-size: 12px !important;
+	margin-top: -4px !important;	
+}
+#s_sctrl #s_sctrl_tabView
+{
+	height: 21px !important;
+}
+ .siebui-applet .AppletButtons .siebui-applet-title label,.siebui-applet .siebui-applet-header div,.siebui-ctrl-btn.appletButton,.siebui-viz-button-tile,.siebui-applet .AppletButtons button
+ {
+	 color: #ddd !important;
+ }
+ .siebui-ctrl-btn.appletButton.siebui-icon-editviewlayout.s_1_1_1_0
+ {
+	 background: #0c3f50 !important;
+ }
+.siebui-main-column66
+{
+	margin-left: 150px !important;
+	width: 1000px !important;
+} 
+.siebui-applet
+ {
+	margin-left: 50px !important;
+	margin-right: 50px !important;
+ }
+ .jstree-default .jstree-anchor,.jstree-default li.jstree-open>a
+ {
+	color:#274a67 !important;
+ }
+ .siebui-toolbar-settings-popup .siebui-tb-item-text span
+ {
+	color: #3d576f !important;
+	font-weight: bolder !important;
+ }
+ .siebui-toolbar-settings-popup .siebui-tb-item-btn .appletButton
+ {
+	color: #3d576f !important;
+	font-weight: bold !important;
+	border-style: ridge !important;
+ }
+ .siebui-applet-content.siebui-collapsible.siebui-collapsible-applet-content, .siebui-applet-content.siebui-collapsible.siebui-collapsible-applet-content
+ {
+	 background: white !important;
+ }
+ .siebui-view-navs .siebui-nav-tabView .ui-tabs-nav li
+ {
+	height: 21px !important;
+ }
+.siebui-tile,.siebui-tile.siebui-tile-selected
+ {
+	border: 3px solid #FFFFFF !important;
+    border-radius: 4% !important;
+    background: #08688D !important; 
+ }
+ 
+ .siebui-drilldown-input,.siebui-ctrl-drilldown,.siebui-tile-container .siebui-tile .siebui-form-data input,.siebui-tile-container .siebui-tile .siebui-icon-mailto,.siebui-input-popup ~ span .siebui-anchor-readonly,.siebui-ctrl-calc[readonly="readonly"]
+ {
+	background: transparent!important;  
+	color: #ddd !important ;
+	font-size: 14px !important;
+	font-family: Arial !important;
+	font-weight: bold !important;
+	border: none !important;
+ }
+ .siebui-tile-details-row2
+ {
+	position: absolute !important;
+    bottom: 25px !important;
+    width: 230px !important;
+	margin-right: 8px !important;
+    height: 47px !important;
+    border-radius: 5px !important;
+    background-color: #035C6E !important;
+    border: 2px solid #FFFFFF !important;
+ }
+.siebui-drilldown-input
+ {
+	border: none !important;
+	width: 200px !important;
+ }
+ .siebui-tile
+ {
+	width: 240px !important;
+    height: 156px !important;
+    margin: 22px 35px 22px 0px !important;
+ }
+ .siebui-tile-container .siebui-tile.siebui-tile-selected
+ {
+	zoom: 1.2;
+	margin: 12px 35px 22px 0px !important;
+ }
+ .siebui-form-data input:focus,  .siebui-form-data input:hover
+ {
+	border-color: #4d9cea !important;
+	background-color: white !important;
+	color: #333 !important;
+ }
+.siebui-tile-container .siebui-tile .siebui-tile-details-row1
+{
+	float: right !important;
+    margin-top: 20px !important;
+	margin-right: 35px!important;
+}
+.siebui-tile-container .siebui-tile .siebui-tile-image
+{
+	top: 4px !important;
+    left: 12px;
+	right: 171px!important;
+}
+div[class='siebui-form-data']>span[id='s_2_2_50_0_span']>a[name='Quote Number'],div[class='siebui-form-data']>span>div>a[name='Order Number'],div[class='siebui-form-data']>span[id='s_1_2_54_0_span']>a[name='Opportunity #']
+{
+	background: #3783A0;
+	padding-right: 8px;
+    padding-left: 8px;
+	margin-left: 28px;
+}
+div[class='siebui-form-data']>span>div>a[name='Name'],div[class='siebui-form-data']>input[aria-label='Order Type']
+{
+	color: #9FA3A2;
+}
+
+.siebui-applet .siebui-applet-header span
+{
+	color:	#ddd !important;
+}
+.siebui-tile-container .siebui-tile .siebui-tile-name .siebui-ctrl-input
+{
+	
+}
+div[class='siebui-form-data']>input[aria-label='Full Name']
+{
+	float: right!important;
+}

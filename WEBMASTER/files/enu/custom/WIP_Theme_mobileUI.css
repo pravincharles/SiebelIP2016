@@ -1,0 +1,95 @@
+#s_sctrl {
+	margin-top: 124px;
+	background-color: #29303f !important;
+}	
+#_sweclient{
+	background-color: #29303f !important;
+	background-image:url(/images/custom/logo.png)!important;
+	background-repeat: no-repeat !important;
+    background-position: 240px !important;
+} 
+#_sweclient>div
+{
+background-color: #29303f !important;	
+}
+#_sweappmenu{
+	background-color: #29303f !important;
+}
+.siebui-icon-home_icon siebui-icon-screentab_icon{
+	background-image:none !important;
+}
+.siebui-icon-accounts_icon siebui-icon-screentab_icon{
+	background-image:none !important;
+}
+.siebui-icon-orders_icon siebui-icon-screentab_icon{
+	background-image:none !important;
+}
+.siebui-icon-contacts_icon siebui-icon-screentab_icon{
+    background-image:none !important;	
+}
+.siebui-icon-autodealer siebui-icon-screentab_icon{
+	 background-image:none !important;
+}
+.siebui-icon-auto_vehicles siebui-icon-screentab_icon{
+	background-image:none !important;
+}
+#b1{
+    background-color: lightgray;
+    FONT-STYLE: normal;
+    font-size: large;
+    color: orangered;
+	width: 96px;
+	margin-top: 30px;
+	margin-left: 20px;
+	background-image: url("/images/custom/account.gif");
+	padding-top: 84px;
+	background-size: 54px;
+    background-repeat: space;
+    background-position: 10px;
+	
+	}
+	
+#b2{
+    background-color: lightgray;
+    FONT-STYLE: normal;
+    font-size: large;
+	color: orangered;
+    width: 94px;
+    margin-left: 5px;
+	background-image: url("/images/custom/Contacts.gif");
+	padding-top: 84px;
+	background-size: 44px;
+    background-repeat: no-repeat;
+    background-position: 24px;
+	}
+	
+#b3{
+    background-color: lightgray;
+    FONT-STYLE: normal;
+    font-size: large;
+    color: orangered;
+    width: 104px;
+    margin-left: 5px;
+	background-image: url("/images/custom/notes.gif");
+	padding-top: 84px;
+	background-size: 61px;
+    background-repeat: space;
+    background-position: 22px;
+	}
+	
+#b4{
+    background-color: lightgray;
+    FONT-STYLE: normal;
+    font-size: large;
+    color: orangered;
+	width:100px;
+	margin-left: 5px;
+	background-image: url("/images/custom/person.gif");
+	padding-top: 81px;
+	background-size: 56px;
+    background-repeat: no-repeat;
+    background-position: 21px;
+	height:110px;
+	}
+	
+

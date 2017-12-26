@@ -1,0 +1,24 @@
+﻿.s2tbutton {
+    position: relative;
+    left: 1px;
+    bottom: 30px;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+
+.s2tbutton.active{
+    text-shadow: 0px 0px 7px rgba(255,0,0,0.9);
+    color: red;
+    -webkit-animation: throbber 1s .165s infinite steps(3);
+}
+.s2tinput{
+    width: 120px!important;
+    text-transform: capitalize;
+}
+ 
+@-webkit-keyframes throbber {
+    0%   {color: #000;}
+    33%  {color: #f00;}
+    100% {color: #000;}
+}

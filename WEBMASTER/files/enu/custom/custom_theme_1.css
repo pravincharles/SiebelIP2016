@@ -1,0 +1,93 @@
+/*Changes for Right HandPane navigation - Starts*/
+.rightHandPane
+{
+ position:relative;
+ float:right;
+ top: 23px;
+ right:-10px;
+ bottom: 100%;
+ width: 14%;
+ background: #FFFFFF;
+ height: 100%;
+ overflow: auto;
+}
+.tier1Back{
+     position: relative;
+     float:left;
+     top: 0px;
+     /* right:-10px; */
+     /* bottom: 100%; */
+     /* width: 14%; */
+     background: #FFFFFF;
+     height: 100%;
+     overflow: auto;
+}
+.rightHandPane .dynatree-title,.tier1Back .dynatree-title
+{
+display:block;
+}
+.rightHandPane ul.dynatree-container span.dynatree-active a,.tier1Back ul.dynatree-container span.dynatree-active a {
+background-color: #A12830 !important;
+border-color: #A12830 !important;
+color: #FFFFFF !important;
+}
+.rightHandPane ul.dynatree-container span.dynatree-active a:hover,.tier1Back ul.dynatree-container span.dynatree-active a:hover {
+background-color: #A12830 !important;
+border-color: #A12830 !important;
+color: #FFFFFF !important;
+}
+.rightHandPane ul.dynatree-container>li a,.tier1Back ul.dynatree-container>li a{
+background: #E7E6E4 !important;
+font-size: 11px !important;
+border-radius: 4px !important;
+font-weight: bold !important;
+color: black !important;
+text-shadow: none !important;
+box-shadow: none !important;
+white-space: normal;
+
+height: auto !important;
+margin: 0 8px 3px 8px !important;
+text-transform: uppercase;
+}
+.rightHandPane ul.dynatree-container>li a:hover,.rightHandPane ul.dynatree-container>li a:focus,.tier1Back ul.dynatree-container>li a:hover,.tier1Back ul.dynatree-container>li a:focus{
+background: #DDB1B4 !important;
+border-color: #DDB1B4 !important;
+color: #FFFFFF !important;
+}
+.shrinkMiddlePane
+{
+width: 86%;
+height: 100% !important;
+}
+.rightHandPane h1{
+text-align:center;
+color: #000;
+font-size: 18px;
+}
+.rightHandPane ul.dynatree-container>li,.tier1Back ul.dynatree-container>li{
+width:100%;
+}
+/*.siebui-subview-navs1 ul.ui-tabs-nav>li>span>a:hover,*/
+.rightHandPane ul.dynatree-container>li>a:focus,.tier1Back ul.dynatree-container>li>a:focus{
+background: #DDB1B4 !important;
+border-color: #DDB1B4 !important;
+color: #FFFFFF !important;
+}
+/*.siebui-subview-navs1 ul.ui-tabs-nav{
+background-color:#003A6F !important;
+border: 0!important;
+}*/
+.shrinkMiddlePane .siebui-btn-icon-expanded a, .shrinkMiddlePane .siebui-btn-icon-collapsed a{
+margin-right:0 !important;
+}
+.shrinkMiddlePane tr.AppletButtons>td.AppletTitle:nth-child(2){
+padding-left:10px
+}
+/*.siebui-subview-navs{
+    font-size: 0.01em;
+}*/
+.shrinkMiddlePane {
+float:left !important;
+}
+/*Changes for Right HandPane navigation - Ends*/

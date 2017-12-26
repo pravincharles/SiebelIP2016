@@ -1,0 +1,213 @@
+/*Changes for Right HandPane navigation - Starts*/
+.rightHandPane
+{
+ position:relative;
+ float:right;
+ top: 23px;
+ right:-10px;
+ bottom: 100%;
+ width: 14%;
+ background: #FFFFFF;
+ height: 100%;
+ overflow: auto;
+}
+.tier1Back{
+     position: relative;
+     float:left;
+     top: 0px;
+     /* right:-10px; */
+     /* bottom: 100%; */
+     /* width: 14%; */
+     background: #FFFFFF;
+     height: 100%;
+     overflow: auto;
+}
+.rightHandPane .dynatree-title,.tier1Back .dynatree-title
+{
+display:block;
+}
+.rightHandPane ul.dynatree-container span.dynatree-active a,.tier1Back ul.dynatree-container span.dynatree-active a {
+background-color: #A12830 !important;
+border-color: #A12830 !important;
+color: #FFFFFF !important;
+}
+.rightHandPane ul.dynatree-container span.dynatree-active a:hover,.tier1Back ul.dynatree-container span.dynatree-active a:hover {
+background-color: #A12830 !important;
+border-color: #A12830 !important;
+color: #FFFFFF !important;
+}
+.rightHandPane ul.dynatree-container>li a,.tier1Back ul.dynatree-container>li a{
+background: #E7E6E4 !important;
+font-size: 11px !important;
+border-radius: 4px !important;
+font-weight: bold !important;
+color: black !important;
+text-shadow: none !important;
+box-shadow: none !important;
+white-space: normal;
+
+height: auto !important;
+margin: 0 8px 3px 8px !important;
+text-transform: uppercase;
+}
+.rightHandPane ul.dynatree-container>li a:hover,.rightHandPane ul.dynatree-container>li a:focus,.tier1Back ul.dynatree-container>li a:hover,.tier1Back ul.dynatree-container>li a:focus{
+background: #DDB1B4 !important;
+border-color: #DDB1B4 !important;
+color: #FFFFFF !important;
+}
+.shrinkMiddlePane
+{
+width: 86%;
+height: 100% !important;
+}
+.rightHandPane h1{
+text-align:center;
+color: #000;
+font-size: 18px;
+}
+.rightHandPane ul.dynatree-container>li,.tier1Back ul.dynatree-container>li{
+width:100%;
+}
+/*.siebui-subview-navs1 ul.ui-tabs-nav>li>span>a:hover,*/
+.rightHandPane ul.dynatree-container>li>a:focus,.tier1Back ul.dynatree-container>li>a:focus{
+background: #DDB1B4 !important;
+border-color: #DDB1B4 !important;
+color: #FFFFFF !important;
+}
+/*.siebui-subview-navs1 ul.ui-tabs-nav{
+background-color:#003A6F !important;
+border: 0!important;
+}*/
+.shrinkMiddlePane .siebui-btn-icon-expanded a, .shrinkMiddlePane .siebui-btn-icon-collapsed a{
+margin-right:0 !important;
+}
+.shrinkMiddlePane tr.AppletButtons>td.AppletTitle:nth-child(2){
+padding-left:10px
+}
+/*.siebui-subview-navs{
+    font-size: 0.01em;
+}*/
+.shrinkMiddlePane {
+float:left !important;
+}
+/*Changes for Right HandPane navigation - Ends*/
+/*Changes throughout the application - Starts*/
+.siebui-applet.siebui-active {
+    -webkit-box-shadow: #FD2222 0 0 4px 0;
+    -moz-box-shadow: #FD2222 0 0 4px 0;
+    box-shadow: #FD2222 0 0 4px 0;
+    outline: 0;
+}
+.ui-jqgrid .ui-jqgrid-btable .ui-state-highlight td {
+    background-color: #F9DDDD!important;
+}
+.no-touch .ui-jqgrid .ui-jqgrid-btable tr:hover td {
+    background-color: #F9DDDD!important;
+}
+.btn-icon, .btn-link, .siebui-icon-calc, .siebui-icon-currency, .siebui-icon-date, .siebui-icon-datetime, .siebui-icon-detail, .siebui-icon-dropdown, .siebui-icon-effdate, .siebui-icon-mvg, .siebui-icon-pick, .siebui-icon-phone-outbound, .siebui-icon-mailto, .siebui-icon-date, .siebui-appletmenu-btn, .siebui-icon-createrecord, .siebui-icon-deleterecord, .siebui-icon-deleterequest, .siebui-icon-writerecord, .siebui-icon-explicitwriterecord, .siebui-icon-undorecord, .siebui-icon-executequery, .siebui-icon-newquery, .siebui-icon-newrecord, .siebui-icon-editrecord, .siebui-icon-showqueryassistant, .siebui-icon-undoquery, .siebui-icon-find, .siebui-icon-helptext_org_chart_new, .ui-dialog .ui-dialog-content .siebui-popup-select-columns .siebui-popup-ctrl .siebui-btn-icon-e, .siebui-applet .siebui-applet-header .siebui-label-btn, .siebui-applet .siebui-applet-header button, .siebui-dashboard-container .siebui-dashboard-field-area .siebui-dashboard-cell .siebui-dashboard-value .siebui-dashboard-element.siebui-ctrl-btn, .siebui-dashboard-container .siebui-dashboard-control-area .siebui-dashboard-ctrl.siebui-dashboard-ctrl-update .siebui-ctrl-btn, .siebui-chat-pane .siebui-chat .siebui-chat-pane-header .siebui-chat-close, .siebui-chat-pane .siebui-chat .siebui-chat-wrap .siebui-chat-tabs .siebui-chat-tab-head .siebui-chat-toggle-area .siebui-chat-dashboard-toggle .siebui-chat-dashboard-switch-visible, .siebui-chat-pane .siebui-chat .siebui-chat-wrap .siebui-chat-tabs .siebui-chat-tab-head .siebui-chat-toggle-area .siebui-chat-dashboard-toggle .siebui-chat-dashboard-switch-hidden, .siebui-chat-pane .siebui-chat .siebui-chat-wrap .siebui-chat-tabs .siebui-chat-tab-body .siebui-chat-dashboard .siebui-chat-dashboard-item-content .siebui-chat-dashboard-item-content-wrap .siebui-chat-dashboard-item-content-btn, .siebui-chat-pane .siebui-chat .siebui-chat-wrap .siebui-chat-toolbar .siebui-chat-toolbar-links a, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-side-toggle .siebui-comm-panel-side-toggle-wide, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-dock-toggle .siebui-comm-panel-side-toggle-wide, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-close-toggle .siebui-comm-panel-side-toggle-wide, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-side-toggle .siebui-comm-panel-side-toggle-narrow, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-dock-toggle .siebui-comm-panel-side-toggle-narrow, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-close-toggle .siebui-comm-panel-side-toggle-narrow, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-side-toggle .siebui-comm-panel-dock-toggle-pin, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-dock-toggle .siebui-comm-panel-dock-toggle-pin, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-close-toggle .siebui-comm-panel-dock-toggle-pin, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-side-toggle .siebui-comm-panel-dock-toggle-unpin, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-dock-toggle .siebui-comm-panel-dock-toggle-unpin, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-close-toggle .siebui-comm-panel-dock-toggle-unpin, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-side-toggle .siebui-comm-panel-close, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-dock-toggle .siebui-comm-panel-close, .siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-close-toggle .siebui-comm-panel-close, .siebui-comm-panel-container .siebui-comm-panel-cti-toggle .siebui-comm-panel-cti-toggle-more, .siebui-comm-panel-container .siebui-comm-panel-dashboard-toggle .siebui-comm-panel-cti-toggle-more, .siebui-comm-panel-container .siebui-comm-panel-chat-toggle .siebui-comm-panel-cti-toggle-more, .siebui-comm-panel-container .siebui-comm-panel-cti-toggle .siebui-comm-panel-cti-toggle-less, .siebui-comm-panel-container .siebui-comm-panel-dashboard-toggle .siebui-comm-panel-cti-toggle-less, .siebui-comm-panel-container .siebui-comm-panel-chat-toggle .siebui-comm-panel-cti-toggle-less, .siebui-comm-panel-container .siebui-comm-panel-cti-toggle .siebui-comm-panel-dashboard-toggle-more, .siebui-comm-panel-container .siebui-comm-panel-dashboard-toggle .siebui-comm-panel-dashboard-toggle-more, .siebui-comm-panel-container .siebui-comm-panel-chat-toggle .siebui-comm-panel-dashboard-toggle-more, .siebui-comm-panel-container .siebui-comm-panel-cti-toggle .siebui-comm-panel-dashboard-toggle-less, .siebui-comm-panel-container .siebui-comm-panel-dashboard-toggle .siebui-comm-panel-dashboard-toggle-less, .siebui-comm-panel-container .siebui-comm-panel-chat-toggle .siebui-comm-panel-dashboard-toggle-less, .siebui-comm-panel-container .siebui-comm-panel-cti-toggle .siebui-comm-panel-chat-toggle-more, .siebui-comm-panel-container .siebui-comm-panel-dashboard-toggle .siebui-comm-panel-chat-toggle-more, .siebui-comm-panel-container .siebui-comm-panel-chat-toggle .siebui-comm-panel-chat-toggle-more, .siebui-comm-panel-container .siebui-comm-panel-cti-toggle .siebui-comm-panel-chat-toggle-less, .siebui-comm-panel-container .siebui-comm-panel-dashboard-toggle .siebui-comm-panel-chat-toggle-less, .siebui-comm-panel-container .siebui-comm-panel-chat-toggle .siebui-comm-panel-chat-toggle-less, .siebui-search-esearch .siebui-search-button, .siebui-appletTitleSection .siebui-appletmenu-btn, .siebui-appletTitleSection .siebui-appletmenu-btn:hover, .siebui-appletTitleSection .siebui-appletmenu-btn:active, .siebui-appletTitleSection .siebui-appletmenu-btn:focus, .siebui-appletTitleSection .siebui-ganttFilterPane, .siebui-appletTitleSection .siebui-ganttFilter, .siebui-appletTitleSection .siebui-ganttFilter:active, .siebui-appletTitleSection .siebui-ganttFilter:focus, .siebui-prevButton, .siebui-nextButton, .siebui-prevSetButton, .siebui-nextSetButton, .siebui-todayButton, .siebui-msgbar-popup #MakeAllMsgReadBtn, .siebui-msgbar-popup .siebui-msgbrdcst-summary .siebui-msgbrdcst-accordian .ui-accordion-header .siebui-msgbar-dismiss a, .siebui-telco-view1 .siebui-telco-view1Row1 .siebui-telco-view1Row1Col1 .siebui-applet .siebui-applet-header .siebui-applet-container.siebui-collapsible .siebui-btn-icon-expanded, .siebui-telco-view1 .siebui-telco-view1Row1 .siebui-telco-view1Row1Col1 .siebui-applet .siebui-applet-header .siebui-applet-container.siebui-collapsible .siebui-btn-icon-collapsed, .siebui-dashboard-container .siebui-dashboard-field-area .siebui-dashboard-cell .siebui-dashboard-value .siebui-dashboard-element.appletButton, .siebui-dashboard-container .siebui-dashboard-control-area .siebui-dashboard-ctrl.siebui-dashboard-ctrl-update .appletButton, .siebui-dashboard-container .siebui-dashboard-field-area .siebui-dashboard-cell .siebui-dashboard-value .siebui-dashboard-element.appletButtonDis, .siebui-dashboard-container .siebui-dashboard-control-area .siebui-dashboard-ctrl.siebui-dashboard-ctrl-update .appletButtonDis, .siebui-icon-newrule, .siebui-cfg-rules-insertion-container .siebui-icon-showpopup, .siebui-icon-deleteselection, .siebui-icon-newline, .siebui-barcode button {
+    color: rgb(171, 0, 0);
+    background-color: transparent;
+    border-color: transparent;
+}
+siebui-ctrl-drilldown, .drilldown, .email, .siebui-ctrl-link a, #findresulttable .siebui-applet-content table .siebui-search-col1 p .siebui-search-highlight a, .siebui-search-dialog table .siebui-search-col1 p .siebui-search-highlight a, #findresulttable .siebui-applet-content table .siebui-search-col2 p .siebui-search-highlight a, .siebui-search-dialog table .siebui-search-col2 p .siebui-search-highlight a, .siebui-search-dialog .siebui-search-highlight {
+    color: rgba(171,0,0,1)!important;
+    white-space: pre;
+}
+.siebui-applet .siebui-bullet-item a.siebui-task-assist-list-item {
+    color: rgba(171,0,0,1);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    width: 100%;
+}
+.siebui-ctrl-drilldown, .drilldown, .email, .siebui-ctrl-link a, #findresulttable .siebui-applet-content table .siebui-search-col1 p .siebui-search-highlight a, .siebui-search-dialog table .siebui-search-col1 p .siebui-search-highlight a, #findresulttable .siebui-applet-content table .siebui-search-col2 p .siebui-search-highlight a, .siebui-search-dialog table .siebui-search-col2 p .siebui-search-highlight a, .siebui-search-dialog .siebui-search-highlight {
+    color: rgba(171,0,0,1)!important;
+    white-space: pre;
+}
+.ui-menubar .ui-menubar-item .ui-state-hover,.ui-menubar .ui-menubar-item .ui-state-focus>a,.ui-menubar .ui-menubar-item .ui-state-active {
+    background: rgba(171,0,0,1);
+}
+
+#_sweclient #_sweappmenu {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #D8D8D8 none repeat-x 0 bottom;
+    clear: both;
+    height: 40px;
+}
+.ui-menubar .ui-menubar-item .ui-menubar-link {
+    font-size: 15px;
+    font-weight: 200;
+    border-left: 0px solid #29303f;
+    border-right: 1px solid #404453;
+    color: #020202;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+.ui-menubar .ui-menubar-item .ui-menubar-link:hover,.ui-menubar .ui-menubar-item .ui-menubar-link:focus,.ui-menubar .ui-menubar-item .ui-state-active {
+    font-size: 15px;
+    font-weight: 200;
+    border-left: 0px solid #29303f;
+    border-right: 1px solid #404453;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+.ui-menubar .ui-menubar-item:last-child {
+    border-right: 0px solid #29303f;
+}
+.siebui-nav-hb.siebui-view-navs .siebui-nav-tabScreen .siebui-nav-hb-btn, .siebui-toolbar-settings .siebui-toolbar .siebui-toolbar-enable, .siebui-toolbar-toggle-communication-panel .siebui-toolbar .siebui-toolbar-enable, .siebui-banner-btn .siebui-msgbar, .siebui-nav-hb.siebui-offline-nav .offline-hb-nav-btn, .siebui-search-esearch .siebui-search-tb-btn, .siebui-dm-log-btn {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    font-family: 'oracle';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #D8D8D8;
+    border-right: 1px solid #404453;
+    height: 40px;
+    padding: 0;
+    width: 39px;
+}
+.siebui-banner-btn-template:focus,.siebui-banner-btn-template:active,.siebui-nav-hb.siebui-view-navs .siebui-nav-tabScreen .siebui-nav-hb-btn:active,.siebui-nav-hb.siebui-subview-navs .siebui-nav-tabScreen .siebui-nav-hb-btn:active,.siebui-nav-hb.siebui-subview-screennavs .siebui-nav-tabScreen .siebui-nav-hb-btn:active,.siebui-nav-hb.siebui-view-navs .siebui-nav-tabView .siebui-nav-hb-btn:active,.siebui-nav-hb.siebui-subview-navs .siebui-nav-tabView .siebui-nav-hb-btn:active,.siebui-nav-hb.siebui-subview-screennavs .siebui-nav-tabView .siebui-nav-hb-btn:active,.siebui-nav-hb.siebui-view-navs .siebui-nav-tabScreen .siebui-nav-hb-btn:focus,.siebui-nav-hb.siebui-subview-navs .siebui-nav-tabScreen .siebui-nav-hb-btn:focus,.siebui-nav-hb.siebui-subview-screennavs .siebui-nav-tabScreen .siebui-nav-hb-btn:focus,.siebui-nav-hb.siebui-view-navs .siebui-nav-tabView .siebui-nav-hb-btn:focus,.siebui-nav-hb.siebui-subview-navs .siebui-nav-tabView .siebui-nav-hb-btn:focus,.siebui-nav-hb.siebui-subview-screennavs .siebui-nav-tabView .siebui-nav-hb-btn:focus,.siebui-toolbar-settings .siebui-toolbar .siebui-toolbar-enable:active,.siebui-toolbar-toggle-communication-panel .siebui-toolbar .siebui-toolbar-enable:active,.siebui-banner-btn .siebui-msgbar:active,.siebui-toolbar-settings .siebui-toolbar .siebui-toolbar-enable:focus,.siebui-toolbar-toggle-communication-panel .siebui-toolbar .siebui-toolbar-enable:focus,.siebui-banner-btn .siebui-msgbar:focus,.siebui-nav-hb.siebui-offline-nav .offline-hb-nav-btn:active,.siebui-nav-hb.siebui-offline-nav .offline-hb-nav-btn:focus,.siebui-search-esearch .siebui-search-tb-btn:active,.siebui-search-esearch .siebui-search-tb-btn:focus,.siebui-dm-log-btn:active,.siebui-dm-log-btn:focus {
+    background-color: #AB0000;
+    outline-style: none;
+    color:#fff;
+}
+.siebui-banner-btn-template:hover,.siebui-nav-hb.siebui-view-navs .siebui-nav-tabScreen .siebui-nav-hb-btn:hover,.siebui-nav-hb.siebui-subview-navs .siebui-nav-tabScreen .siebui-nav-hb-btn:hover,.siebui-nav-hb.siebui-subview-screennavs .siebui-nav-tabScreen .siebui-nav-hb-btn:hover,.siebui-nav-hb.siebui-view-navs .siebui-nav-tabView .siebui-nav-hb-btn:hover,.siebui-nav-hb.siebui-subview-navs .siebui-nav-tabView .siebui-nav-hb-btn:hover,.siebui-nav-hb.siebui-subview-screennavs .siebui-nav-tabView .siebui-nav-hb-btn:hover,.siebui-toolbar-settings .siebui-toolbar .siebui-toolbar-enable:hover,.siebui-toolbar-toggle-communication-panel .siebui-toolbar .siebui-toolbar-enable:hover,.siebui-banner-btn .siebui-msgbar:hover,.siebui-nav-hb.siebui-offline-nav .offline-hb-nav-btn:hover,.siebui-search-esearch .siebui-search-tb-btn:hover,.siebui-dm-log-btn:hover {
+    background-color: #AB0000;
+    color:#fff;
+}
+.siebui-banner-btn-template, .siebui-nav-hb.siebui-view-navs .siebui-nav-tabScreen .siebui-nav-hb-btn, .siebui-nav-hb.siebui-subview-navs .siebui-nav-tabScreen .siebui-nav-hb-btn, .siebui-nav-hb.siebui-subview-screennavs .siebui-nav-tabScreen .siebui-nav-hb-btn, .siebui-nav-hb.siebui-view-navs .siebui-nav-tabView .siebui-nav-hb-btn, .siebui-nav-hb.siebui-subview-navs .siebui-nav-tabView .siebui-nav-hb-btn, .siebui-nav-hb.siebui-subview-screennavs .siebui-nav-tabView .siebui-nav-hb-btn, .siebui-toolbar-settings .siebui-toolbar .siebui-toolbar-enable, .siebui-toolbar-toggle-communication-panel .siebui-toolbar .siebui-toolbar-enable, .siebui-banner-btn .siebui-msgbar, .siebui-nav-hb.siebui-offline-nav .offline-hb-nav-btn, .siebui-search-esearch .siebui-search-tb-btn, .siebui-dm-log-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: none;
+    border: 0;
+    color: #000;
+    font-size: 19px;
+    margin: 0;
+    cursor: pointer;
+    outline-style: none;
+}
+/*Changes throughout the application - Ends*/
