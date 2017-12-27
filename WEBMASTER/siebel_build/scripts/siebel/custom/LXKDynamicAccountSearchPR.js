@@ -47,8 +47,13 @@ if (typeof(SiebelAppFacade.LXKDynamicAccountSearchPR) === "undefined") {
 					var sInboundResultSet = sInboundOutputPS.GetChildByType("ResultSet");
 					var sSHIURL = sInboundResultSet.GetProperty("AccountName");
 					}
-
-				var AccountName = sSHIURL.split('<B>');
+               //Security Fix 12/27 
+				var AccountName =null;
+				if (sSHIURL)
+				{
+				AccountName = sSHIURL.split('<B>');	
+				}
+				
 
 				$("#DynamicSearch").autocomplete({
 					source: AccountName,
